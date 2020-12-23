@@ -1,9 +1,9 @@
 import Card from './card'
 
 function CardList({robots}){
-	if(true){
-		throw new Error('NOOOOOOO!')
-	}
+	// if(true){
+	// 	throw new Error('NOOOOOOO!')
+	// }
 	return(
 		<div>
 			{
