@@ -41,10 +41,7 @@ export default class App extends Component {
 						<SearchBox className = "searchbox" searchChange={this.onSearchChange} />
 					</div>
 					<Scroll>
-						<ErrorBoundary>
-							<CardList robots = {filteredRobots} />
-						</ErrorBoundary>
-						
+						<CardList robots = {filteredRobots} />
 					</Scroll>
 				</div>
 		);
